@@ -1,0 +1,232 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none !important;
+  text-decoration: none !important; 
+}
+
+input {
+  outline: none !important; 
+}
+
+button {
+  outline: none !important; 
+}
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/*========= Hero Section Css ===========*/
+
+
+ .nav_header{
+   background: #FFF;
+   overflow: hidden;
+   padding: 25px 0px;
+ } 
+.container_custom {
+    margin: auto;
+    max-width: 1170px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+
+.logo_area {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.menu_area {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.menu_area ul {
+  float: right;
+}
+.menu_area ul li {
+  display: inline;
+}
+.menu_area ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 33px;
+  color: #0F2137;
+  margin-left: 48px;
+  display: inline-block;
+  transition: 0.5s;
+  border-bottom: 5px solid transparent;
+}
+.menu_area ul li a:hover{
+  color: #28DCB2;
+  transition: 0.5s;
+  border-bottom: 5px solid #28DCB2;
+}
+/*Hero Css */
+
+.hero_section{
+  background: #FFF;
+  padding-top: 90px;
+  padding-bottom: 109px;
+  overflow: hidden;
+}
+.hero_content {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  padding-right: 90px;
+}
+.hero_image {
+  width: 50%;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+
+.hero_image::after {
+  position: absolute;
+  content: "";
+  width: 302px;
+  height: 347px;
+  background: url('../photos/hero/hero-dot-overlay.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: -51px;
+  right: -91px;
+  z-index: -1;
+}
+
+.hero_content h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  color: #02073E;
+  padding-bottom: 19px;
+}
+.hero_content p {
+  font-size: 18px;
+  line-height: 42px;
+  color: #02073E;
+  padding-bottom: 47px;
+}
+.explore_btn a {
+  background: #28DDB2;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 25px 31px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.explore_btn a:hover {
+  background: #4F96FF;
+  transition: 0.5s;
+}
+
+.explore_btn {
+  padding-bottom: 48px;
+}
+.client_logo ul li {
+  display: inline;
+}
+.client_logo ul li a{
+  margin-right: 28px;
+  display: inline-block;
+}
