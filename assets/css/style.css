@@ -3,6 +3,7 @@ body{
   margin: 0;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
+  font-size: 16px;
 }
 * {
   box-sizing: border-box;
@@ -229,4 +230,81 @@ img{
 .client_logo ul li a{
   margin-right: 28px;
   display: inline-block;
+}
+
+/*Go Beyond unlimited*/
+
+.unlimited_section {
+  padding-top: 101px;
+  padding-bottom: 179px;
+  background: #FFF;
+  overflow: hidden;
+}
+.unlimited_title {
+  max-width: 583px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 90px;
+}
+.unlimited_title h1 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #0F2137;
+  padding-bottom: 10px;
+}
+.unlimited_title p {
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  color: #0F2137;
+}
+.unlimited_single_item {
+  width: 19%;
+  float: left;
+  margin: 3%;
+  overflow: hidden;
+}
+.un_content h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  color: #0F2137;
+  padding-bottom: 25px;
+}
+.un_content p {
+  line-height: 30px;
+  color: #343D48;
+}
+
+/*Smart Css */
+.smart_section{
+  background: #F9FAFC;
+  padding-top: 100px;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+.smart_box_full_area{
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+
+.smart_single_item {
+  width: 46%;
+  float: left;
+  margin: 2%;
+  background: white;
+  border: 1px solid #DDD;
+  border-radius: 10%;
+  box-sizing: border-box;
+  box-shadow: 0 0 12px #c4c4c4;
+}
+.item_tow{
+  margin-top: -30px;
 }
