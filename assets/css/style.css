@@ -402,6 +402,7 @@ img{
   background: #FFF;
   padding-top: 120px;
   padding-bottom: 120px;
+  overflow: hidden;
 }
 .pricing_title{
   max-width: 583px;
@@ -600,3 +601,31 @@ color: #0F2137;
 
 
 /*Pricing Css area */
+
+/*Footer Css /*/
+.footer_area {
+  background: #F9FAFC;
+  padding: 45px 0px;
+  overflow: hidden;
+}
+.single_footer_item {
+  width: 16%;
+  float: left;
+  overflow: hidden;
+  margin: 0 1%;
+}
+.single_footer_item h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: #0F2137;
+  padding-bottom: 28px;
+}
+.single_footer_item ul li a {
+  font-size: 14px;
+  line-height: 250%;
+  color: #02073E;
+  opacity: 0.8;
+  display: inline-block;
+}
